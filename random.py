@@ -13,6 +13,7 @@ print(int(random() * 10)+1) #1 ~ 10 미만의 값을 랜덤으로 뽑음
 # range(1,46) 1부터 46 미만의 값을 가진다.
 # range(1,7) = [1, 2, 3, 4, 5, 6]
 print(randrange(1,46)) #1 ~ 46 미만의 값 랜덤으로 뽑음
+print(randint(1,46)) #1 ~ 46 미만의 값 랜덤으로 뽑음 
 
 a = range(1,7)
 print(a)

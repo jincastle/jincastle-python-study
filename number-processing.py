@@ -1,10 +1,11 @@
+# 숫자 처리 함
 print(abs(-5)) # 절대값 5출력
 
 print(pow(4,2)) # 4의 2 제곱근 값 16 출력
 
 print(max(5,12)) #최대값 12 출력
 
-print(max(5,12)) #최소값 5 출력
+print(min(5,12)) #최소값 5 출력
 
 print(round(3.14)) # 반올림 3
 
