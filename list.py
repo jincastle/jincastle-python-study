@@ -13,7 +13,6 @@ print(subway.index("하하"))
 # 노홍철이 다음 칸에 탐(추가)
 subway.append("노홍철")
 print(subway)
-subway.add("정준하")
 
 #정형돈을 유재석 하하 사이에 추가(중간에 추가)
 subway.insert(1, "정형돈")

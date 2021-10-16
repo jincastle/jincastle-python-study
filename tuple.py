@@ -3,3 +3,9 @@
 menu = ("돈가스", "생선까스", "치킨까스")
 print(menu[0])
 print(menu[1])
+
+#name = "김종국"
+#age = 20
+#hobby = "축구"
+(name, age, hobby) = ("김종국", 20, "축구") #한번에 선언
+print(name, age, hobby)

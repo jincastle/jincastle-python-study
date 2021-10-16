@@ -1,5 +1,5 @@
 from random import *;
-from math import *;
+
 x = random.random()
 print(x) # 랜덤으로 값을 뽑음
 
@@ -20,3 +20,5 @@ print(a)
 random.shuffle(a) # 시퀀스를 섞음 하지만 인덱스 고유값은 그대로 유지
 random.choice(a) # 랜덤으로 하나의 값 선택
 
+user = [1, 2, 3]
+print(sample(user, 1)) #유저에서 1개를 임의로 뽑아서 출력
