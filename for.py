@@ -28,9 +28,9 @@
 # print(students)
 
 # 학생 이름을 대문자로 변환
-students = ["Iron man", "Thor", "black widow"]
-students = [i.upper() for i in students]
-print(students)
+# students = ["Iron man", "Thor", "black widow"]
+# students = [i.upper() for i in students]
+# print(students)
 
 # -------------------------------------
 
