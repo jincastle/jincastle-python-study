@@ -4,7 +4,7 @@
 
 gun = 10 #전역 변수
 
-def checkpoint(soldiers): #경계근생
+def checkpoint(soldiers): #경계근무
     global gun #전역 공간에 있는 gun 사용
     gun = gun - soldiers
     print("[함수 내] 남은 총 : {0}".format(gun))

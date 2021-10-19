@@ -6,10 +6,10 @@
 # print("Python", "Java", file=sys.stdout)  # 표준 출력
 # print("Python", "Java", file=sys.stderr)  # 표준 에러시 따로 로깅됨
 
-#시험 성적
+# 시험 성적
 # scores ={"수학":0, "영어":50, "코딩":100}
 # for subject, score in scores.items():
-#     # print(subject, score)
+#     print(subject, score)
 #     print(subject.ljust(8), str(score).rjust(4), sep=":") #ljust(8) 왼쪽에 8칸의 공간을 두고 왼쪽 정렬, #rjust(4) 오른쪽 4 공간을 두고 오른쪽 정렬
 
 # 수학      :   0
@@ -28,5 +28,5 @@
 # .
 
 #사용자 입력값은 무조건 str 로 인식된다
-answer = input("아무 값이나 입력하세요 : ") #
-print("입력하신 값은 "+ answer + "입니다.")
+# answer = input("아무 값이나 입력하세요 : ") 
+# print("입력하신 값은 "+ answer + "입니다.")

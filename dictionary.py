@@ -1,6 +1,6 @@
 #dictionary 구분 key와 value로 구성
 
-from typing import Concatenate
+#from typing import Concatenate
 
 
 cabinet = {3:"유재석", 100:"김태호"}
