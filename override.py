@@ -37,16 +37,16 @@ class FlyableAttackUnit(AttackUnit, Flyable):
         AttackUnit.__init__(self, name, hp, 0, damage) #지상 스피드는 0
         Flyable.__init__(self, flying_speed)
 
-    def move(self, location):
+    def move(self, location): #move를 재정의
         print("[공중 유닛 이동]")
         self.fly(self.name, location)
 
-# 벌쳐 : 지상 유닛, 기동성이 좋음
-vulture = AttackUnit("벌쳐", 80, 10, 20)
+# 건물
+class BuildingUnit(Unit):
+    def __init__(self, name, hp, location):
+        #Unit.__init__(self, name, hp, 0) # 유닛을 통한 상속
+        super().__init__(name, hp, 0) # super 이용
+        self.location = location
 
-#배틀크루저
-battlecruiser = FlyableAttackUnit("배틀크루저", 500, 25, 3)
 
-
-vulture.move("11시")
-battlecruiser.move("9시")
+      
