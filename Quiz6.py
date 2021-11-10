@@ -10,14 +10,14 @@
 
 # 조건 : 파일명은 '1주차.txt', '2주차.txt', ... 와 같이 만듭니다.
 
-# import pickle
+import pickle
 
-# week = range(1,51)
+week = range(1,51)
 
-# for weeks in week:
-#     with open(str(weeks) + "주차.txt" + "w", encoding="utf8") as report_file:
-#         report_file.write("- {0} 주차 주간보고 -".format(weeks))
-#         report_file.write("\n부서 :")
-#         report_file.write("\n이름 :")
-#         report_file.write("\n업무 요약 :")
+for weeks in week:
+    with open(str(weeks) + "주차.txt" + "w", encoding="utf8") as report_file:
+        report_file.write("- {0} 주차 주간보고 -".format(weeks))
+        report_file.write("\n부서 :")
+        report_file.write("\n이름 :")
+        report_file.write("\n업무 요약 :")
 

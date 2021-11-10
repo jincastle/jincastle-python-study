@@ -69,3 +69,14 @@
 # print("{0:f}".format(5/3))
 # #소수점을 특정 자리수 까지만 표시
 # print("{0:.2f}".format(5/3))
+# 함수를 완성해 주세요.
+def what_is_my_full_name(**kwargs):
+    #아래에 코드를 작성해 주세요.
+    names = []
+    for i in kwargs:
+      if kwargs[i] != None:
+        names.append(kwargs[i])
+    return names[0] + " " + names[1]
+
+
+what_is_my_full_name(frist_name = "정", last_name = "우성")
